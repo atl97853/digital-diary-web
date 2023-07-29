@@ -8,10 +8,24 @@
   align-items: center;
 } */
 
+/* main container */
 .main-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+/* main child containers */
+.custom-container {
+  max-width: 25vw;
+}
+
+.display-container {
+  width: 50vw;
+}
+
+.buttoms-container {
+  max-width: 25vw;
 }
 
 /* custom container */
@@ -36,6 +50,7 @@
   padding: 0;
   display: flex;
   gap: 5px;
+  max-width: 30vw;
 }
 
 .calendar-day {
