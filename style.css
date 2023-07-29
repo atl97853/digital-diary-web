@@ -1,0 +1,44 @@
+:root {
+  --black: black;
+  --white: white;
+  --gray: gray;
+}
+
+/* body {
+  align-items: center;
+} */
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* custom container */
+.profile-image>img {
+  max-width: 100%;
+  height: 12.5vw;
+}
+
+.profile-description {
+  max-width: 12.5vw;
+}
+
+/* calendar */
+.calendar-container {
+  display: flex;
+  align-items: center;
+}
+
+.calendar-days {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.calendar-day {
+  min-width: 1.25vw;
+  text-align: center;
+}
