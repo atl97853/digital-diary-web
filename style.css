@@ -46,10 +46,43 @@
 
 /* display container */
 .display-container {
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* text container */
+.text-container {
+  width: 41vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
+
+.text-note {
+  border: 1px solid black;
+}
+
+:hover.text-note {
+  background-color: red;
+  cursor: pointer;
+}
+
+.text-note-image {
+  max-width: 100%;
+  height: 10vw;
+}
+
+.text-note-date {
+  text-align: center;
+  font-weight: bolder;
+}
+
 
 /* calendar */
 .calendar-container {
@@ -86,9 +119,4 @@
   text-align: center;
   justify-content: space-around;
   font-weight: bold;
-}
-
-/* text container */
-.text-container {
-  height: 50vh;
 }
